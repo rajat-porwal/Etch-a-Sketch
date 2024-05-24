@@ -43,3 +43,19 @@ button:hover {
   overflow: hidden;
   border: 5px solid #ff6f61;
 }
+
+.rowGrid {
+  display: flex;
+  width: 100%;
+}
+
+.cell {
+  flex: 1;
+  aspect-ratio: 1;
+  border: 1px solid #ff7e5f;
+  transition: background-color 0.3s ease, box-shadow 0.2s;
+}
+
+.cell:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
