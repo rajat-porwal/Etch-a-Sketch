@@ -59,3 +59,11 @@ button:hover {
 .cell:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.cell:nth-child(odd) {
+  background-color: #ffe0b2;
+}
+
+.cell:nth-child(even) {
+  background-color: #ffccbc;
+}
