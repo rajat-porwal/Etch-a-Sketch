@@ -8,3 +8,12 @@ body {
   font-family: 'Comic Sans MS', cursive, sans-serif;
   background: linear-gradient(135deg, #ff7e5f, #feb47b);
 }
+
+button {
+  margin: 10px;
+  padding: 15px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff6f61;
+}
