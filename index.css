@@ -16,4 +16,7 @@ button {
   font-weight: bold;
   color: #fff;
   background-color: #ff6f61;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
